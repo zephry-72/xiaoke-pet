@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- 天空蓝背景圆形 -->
+    <path
+        android:fillColor="#7BB3FF"
+        android:pathData="M24,24m-20,0a20,20 0,1,1 40,0a20,20 0,1,1 -40,0"/>
+    
+    <!-- 小克身体（像素风方块） -->
+    <path
+        android:fillColor="#7BB3FF"
+        android:pathData="M16,26h16v12h-16z"/>
+    
+    <!-- 小克头部（圆形） -->
+    <path
+        android:fillColor="#7BB3FF"
+        android:pathData="M24,18m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0"/>
+    
+    <!-- 眼睛（黑色方块） -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M21,17h2v2h-2z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M25,17h2v2h-2z"/>
+    
+    <!-- 金色装饰（小帽子） -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M20,14h8v2h-8z"/>
+</vector>

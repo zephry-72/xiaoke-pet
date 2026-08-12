@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+color bg_warm
+color blue_primary
+color gold_accent
+color text_dark
+color text_muted
+drawable bg_button
+drawable bg_status_card
+id petWebView
+id startButton
+id statusText
+layout activity_main
+layout overlay_pet
+mipmap ic_launcher
+string app_name
