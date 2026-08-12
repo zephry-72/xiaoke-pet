@@ -36,12 +36,12 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.5.1")
+    implementation("com.google.android.material:material:1.7.0")
     
     // Kotlin Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
     
     // Supabase
     implementation("io.github.jan-tennert.supabase:postgrest-kt:1.4.0")
@@ -49,7 +49,7 @@ dependencies {
     implementation("io.ktor:ktor-client-android:2.3.5")
     
     // WebView
-    implementation("androidx.webkit:webkit:1.9.0")
+    implementation("androidx.webkit:webkit:1.5.0")
     
     // JSON
     implementation("com.google.code.gson:gson:2.10.1")
